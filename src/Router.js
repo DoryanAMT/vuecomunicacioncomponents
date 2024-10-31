@@ -4,6 +4,7 @@ import PadreDeportes from './components/PadreDeportes.vue'
 import NumeroDoble from './components/NumeroDoble.vue'
 import SumaCheckbox from './components/SumaCheckbox.vue'
 import MenuTablaMultiplicar from './components/MenuTablaMultiplicar.vue'
+import TablaMultiplicar from './components/TablaMultiplicar.vue'
 
 //  CREAMOS UNA CONSTANTE ARRAY PARA LAS RUTAS
 const myRoutes = [
@@ -20,7 +21,10 @@ const myRoutes = [
         path: "/numerodoble/:numero?", component: NumeroDoble,
     },
     {
-        path: "/menutablamultiplcar", component: MenuTablaMultiplicar,
+        path: "/menutablamultiplicar", component: MenuTablaMultiplicar,
+    },
+    {
+        path: "/tablamultiplicar/:numero?", component: TablaMultiplicar, name: 'tablamultiplicar',
     },
 
 ]

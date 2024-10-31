@@ -8,6 +8,7 @@
       <li v-for="numero in numeros" :key="numero">
         <router-link :to="'/numerodoble/'+numero"> numeroDoble {{numero}}</router-link> |
       </li>
+      <li><router-link to="/menutablamultiplicar"> menutablamultiplicar</router-link> |</li>
     </ul>
   </div>
 </template>

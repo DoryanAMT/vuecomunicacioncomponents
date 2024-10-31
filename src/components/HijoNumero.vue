@@ -9,7 +9,7 @@
 
 <script>
 
-    export default{
+    export default {
         name: "HijoNumero",
         props: [ "numero" ],
         methods : {
